@@ -1,0 +1,142 @@
+body {
+  color: #40514E;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  color: #5d5d5d;
+  font-size: 5.6rem;
+  /* 16px=100%=1em */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #5f6769;
+  font-family: 'Girassol', cursive;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #5d5d5d;
+  font-family: 'Girassol', cursive;
+}
+
+p {
+  line-height: 2;
+  font-family: 'Girassol', cursive;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto 100px auto;
+}
+
+a {
+  color: #d4d7dd;
+  font-family: 'Girassol', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FFFFFF;
+}
+
+.copyright{
+  padding: 20px 0;
+}
+
+.intro {
+  margin: auto;
+  width: 60%;
+}
+
+.a_programmer {
+  margin-top: 66.4px;
+  font-weight: normal;
+}
+
+.top_container {
+  background-color: #eae9e9;
+  padding-top: 100px;
+}
+
+.middle_container {
+  margin: 100px 0;
+}
+
+.bottom_container {
+  background-color: #5f6769;
+  padding: 50px 0 20px;
+}
+
+.contact_me{
+  width: 30%;
+  margin: 40px auto 60px auto;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+  font-family: 'Girassol', cursive;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.skill_row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.first_skill {
+  width: 40%;
+  float: left;
+  margin-right: 30px;
+}
+
+.second_skill {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 150px;
+  top: 50px;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 100px;
+  bottom: 450px;
+}
