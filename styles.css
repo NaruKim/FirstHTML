@@ -107,9 +107,9 @@ a:hover{
 }
 
 .skill_row {
-  margin: 100px auto 100px auto;
+  margin: 100px auto 220px auto;
   width: 50%;
-  text-align: left;
+  text-align: center;
   line-height: 2;
 }
 
